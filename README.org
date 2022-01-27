@@ -1,0 +1,37 @@
+#+TITLE: Emacs 新人指南
+#+DATE: 2022-01-27T12:12:49+0800
+#+AUTHOR: Jiacai Liu
+#+LANGUAGE: cn
+#+EMAIL: jiacai2050+org@gmail.com
+#+OPTIONS: toc:nil num:nil
+#+STARTUP: content
+
+* [[https://www.gnu.org/software/emacs/][Emacs 理念]]
+#+begin_quote
+An extensible, customizable, free/libre text editor — and more.
+#+end_quote
+“扩展性”是 Emacs 中最重要的概念，初学者一定要试试牢记这一点，在日后的使用过程中逐渐去体会其中的美妙之处。
+
+* 新手入门
+对于中文用户来说，推荐的入门教程是下面两个：
+1. [[https://github.com/redguardtoo/mastering-emacs-in-one-year-guide/blob/master/guide-zh.org][一年成为Emacs高手]] by 陈斌
+2. [[https://book.emacs-china.org/][21 天学会 Emacs（2022 Edition）]] by 子龙山人
+
+陈斌的文章重在理念的培养上，而子龙的 21 天视频教程重在具体操作上，两个教程同时看可以做到传统武学上的“内外兼修”。
+
+* 编程语言
+[[https://microsoft.github.io/language-server-protocol/][LSP]] 是当前使用最广泛的一套协议，用户给文本编辑器提供类似 IDE 的功能，比如：自动补全、定义跳转等。对于 Emacs 来说，主要有两个实现：
+- [[https://github.com/emacs-lsp/lsp-mode][emacs-lsp/lsp-mode]]，主打功能丰富
+- [[https://github.com/joaotavora/eglot][joaotavora/eglot]]，主打小巧精悍
+
+具体使用那个看各人口味，笔者本人在使用 lsp-mode 多年后转到了 eglot，主要觉得 lsp 太占用内存，很多功能都用不到。
+** Go
+LSP 支持完善。服务端实现是：[[https://github.com/golang/tools/tree/master/gopls][tools/gopls]]
+** Rust
+LSP 支持完善。服务端实现是：[[https://github.com/rust-analyzer/rust-analyzer][rust-analyzer/rust-analyzer: A Rust compiler front-end for IDEs]]
+
+** Clojure
+LSP 目前对 Clojure 的支持不够强大，用的最多的是 [[https://docs.cider.mx/cider/index.html][CIDER]]，一套可供参考的配置是：
+- [[https://github.com/EmacsTalk/emacs-for-clojure][EmacsTalk/emacs-for-clojure: 专为 Clojure 初学者准备的 Emacs 开发环境 🍺]]
+* Org-mode
+TBD
