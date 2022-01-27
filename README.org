@@ -1,10 +1,12 @@
-#+TITLE: Emacs 新人指南
+#+TITLE: Emacs 新手指南
 #+DATE: 2022-01-27T12:12:49+0800
 #+AUTHOR: Jiacai Liu
 #+LANGUAGE: cn
 #+EMAIL: jiacai2050+org@gmail.com
 #+OPTIONS: toc:nil num:nil
 #+STARTUP: content
+
+#+html: <p align="center"><img src="/images/emacs-splash.jpg" title="Emacs Logo" /></p>
 
 * [[https://www.gnu.org/software/emacs/][Emacs 理念]]
 #+begin_quote
