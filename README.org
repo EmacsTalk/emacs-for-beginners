@@ -12,7 +12,7 @@
 #+begin_quote
 An extensible, customizable, free/libre text editor — and more.
 #+end_quote
-“扩展性”是 Emacs 中最重要的概念，初学者一定要试试牢记这一点，在日后的使用过程中逐渐去体会其中的美妙之处。
+“扩展性”是 Emacs 中最重要的概念，初学者一定要试试牢记这一点。在使用过程中，逐渐去打造最符合自己的编辑器。[[https://github.com/EmacsTalk/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md][提问的智慧]]是极客间基本的礼仪，你也应该掌握它。
 
 * 新手入门
 对于中文用户来说，推荐的入门教程是下面两个：
@@ -31,9 +31,22 @@ An extensible, customizable, free/libre text editor — and more.
 LSP 支持完善。服务端实现是：[[https://github.com/golang/tools/tree/master/gopls][tools/gopls]]
 ** Rust
 LSP 支持完善。服务端实现是：[[https://github.com/rust-analyzer/rust-analyzer][rust-analyzer/rust-analyzer: A Rust compiler front-end for IDEs]]
+** Python
+LSP 支持完善。服务端：[[https://github.com/microsoft/pyright][microsoft/pyright: Static type checker for Python]]
 
+不需要再安装 [[https://elpy.readthedocs.io/en/latest/][Elpy]]，已经过时。更多可参考：[[https://wiki.python.org/moin/EmacsEditor][EmacsEditor - Python Wiki]]
 ** Clojure
 LSP 目前对 Clojure 的支持不够强大，用的最多的是 [[https://docs.cider.mx/cider/index.html][CIDER]]，一套可供参考的配置是：
 - [[https://github.com/EmacsTalk/emacs-for-clojure][EmacsTalk/emacs-for-clojure: 专为 Clojure 初学者准备的 Emacs 开发环境 🍺]]
 * Org-mode
 TBD
+
+
+* 主题
+- [[https://emacsthemes.com/][A GNU Emacs Themes Gallery]]
+
+* 更多阅读
+- [[https://wiki.archlinux.org/title/Emacs][Emacs - ArchWiki]]
+- [[https://caiorss.github.io/Emacs-Elisp-Programming/Emacs_On_Windows.html#sec-1-4][Emacs on Microsoft Windows]]
+- [[https://github.com/emacs-tw/awesome-emacs][emacs-tw/awesome-emacs: A community driven list of useful Emacs packages, libraries and others.]]
+- [[https://emacs.sexy/][Emacs is sexy]]
