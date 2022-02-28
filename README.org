@@ -41,6 +41,8 @@ LSP 目前对 Clojure 的支持不够强大，用的最多的是 [[https://docs.
 * Org-mode
 TBD
 
+* Windows
+- [[https://caiorss.github.io/Emacs-Elisp-Programming/Emacs_On_Windows.html#sec-1-2-2][Emacs on Microsoft Windows]]
 
 * 主题
 - [[https://emacsthemes.com/][A GNU Emacs Themes Gallery]]
@@ -49,6 +51,5 @@ TBD
 * 扩展阅读
 - [[https://www.masteringemacs.org/article/beginners-guide-to-emacs][An Emacs Tutorial: Beginner's Guide to Emacs - Mastering Emacs]]
 - [[https://wiki.archlinux.org/title/Emacs][Emacs - ArchWiki]]
-- [[https://caiorss.github.io/Emacs-Elisp-Programming/Emacs_On_Windows.html#sec-1-4][Emacs on Microsoft Windows]]
 - [[https://github.com/emacs-tw/awesome-emacs][emacs-tw/awesome-emacs: A community driven list of useful Emacs packages, libraries and others.]]
 - [[https://emacs.sexy/][Emacs is sexy]]
