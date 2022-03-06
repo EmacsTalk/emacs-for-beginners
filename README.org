@@ -22,11 +22,13 @@ An extensible, customizable, free/libre text editor — and more.
 陈斌的文章重在理念的培养上，而子龙的 21 天视频教程重在具体操作上，两个教程同时看可以做到传统武学上的“内外兼修”。
 
 * 编程语言
-[[https://microsoft.github.io/language-server-protocol/][LSP]] 是当前使用最广泛的一套协议，用户给文本编辑器提供类似 IDE 的功能，比如：自动补全、定义跳转等。对于 Emacs 来说，主要有两个实现：
+[[https://microsoft.github.io/language-server-protocol/][LSP]] 是当前使用最广泛的一套协议，用于给文本编辑器提供类似 IDE 的功能，比如：自动补全、定义跳转等。对于 Emacs 来说，主要有两个实现：
 - [[https://github.com/emacs-lsp/lsp-mode][emacs-lsp/lsp-mode]]，主打功能丰富
 - [[https://github.com/joaotavora/eglot][joaotavora/eglot]]，主打小巧精悍
 
-具体使用那个看各人口味，笔者本人在使用 lsp-mode 多年后转到了 eglot，主要觉得 lsp 太占用内存，很多功能都用不到。
+关于这两个的选择，读者可以都尝试一下，这里给出一些参考链接：
+- [[https://emacstalk.github.io/post/016/][使用 eglot 代替 lsp-mode]]
+- [[https://cestlaz.github.io/post/using-emacs-74-eglot/][Using Emacs 74 Eglot - C'est la Z]]
 ** Go
 LSP 支持完善。服务端实现是：[[https://github.com/golang/tools/tree/master/gopls][tools/gopls]]
 ** Rust
