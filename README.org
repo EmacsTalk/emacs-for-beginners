@@ -32,7 +32,10 @@ An extensible, customizable, free/libre text editor — and more.
 ** Go
 LSP 支持完善。服务端实现是：[[https://github.com/golang/tools/tree/master/gopls][tools/gopls]]
 ** Rust
-LSP 支持完善。服务端实现是：[[https://github.com/rust-analyzer/rust-analyzer][rust-analyzer/rust-analyzer: A Rust compiler front-end for IDEs]]
+LSP 支持完善。服务端实现：[[https://github.com/rust-analyzer/rust-analyzer][rust-analyzer/rust-analyzer: A Rust compiler front-end for IDEs]]
+** C
+- LSP 支持中等。服务端实现：[[https://clangd.llvm.org/][Clangd: teach your editor C++]]
+- 另一种流行的配置是 ctags，见：[[https://github.com/universal-ctags/citre][universal-ctags/citre: Ctags IDE on the True Editor]]
 ** Python
 LSP 支持完善。服务端：[[https://github.com/microsoft/pyright][microsoft/pyright: Static type checker for Python]]
 
@@ -55,3 +58,4 @@ TBD
 - [[https://wiki.archlinux.org/title/Emacs][Emacs - ArchWiki]]
 - [[https://github.com/emacs-tw/awesome-emacs][emacs-tw/awesome-emacs: A community driven list of useful Emacs packages, libraries and others.]]
 - [[https://emacs.sexy/][Emacs is sexy]]
+- [[https://stackoverflow.blog/2020/11/09/modern-ide-vs-vim-emacs/][Modern IDEs are magic. Why are so many coders still using Vim and Emacs? - Stack Overflow Blog]]
