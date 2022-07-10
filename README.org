@@ -12,8 +12,29 @@
 #+begin_quote
 An extensible, customizable, free/libre text editor — and more.
 #+end_quote
-“扩展性”是 Emacs 中最重要的概念，初学者一定要试试牢记这一点。在使用过程中，逐渐去打造最符合自己的编辑器。[[https://github.com/EmacsTalk/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md][提问的智慧]]是极客间基本的礼仪，你也应该掌握它。
+扩展性强、自由是 Emacs 中最重要的概念，初学者一定要试试牢记这一点。在使用过程中，逐渐去打造最符合自己的编辑器。[[https://github.com/EmacsTalk/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md][提问的智慧]]是极客间基本的礼仪，你也应该掌握它。
 
+| Value                | Emacs | Vim | Neovim | VSCode |
+|----------------------+-------+-----+--------+--------|
+| Approachability      |       |     | ✓      | ✓      |
+| Doing one thing well |       | ✓   |        |        |
+| Editing efficiency   |       | ✓   | ✓      |        |
+| Extensibility        | ✓     |     | ✓      |        |
+| Freedom              | ✓     |     |        |        |
+| Integration          |       |     |        | ✓      |
+| Introspectability    | ✓     |     |        |        |
+| Keyboard centrism    | ✓     | ✓   | ✓      |        |
+| Maintainability      |       |     |        | ✓      |
+| Progressiveness      |       |     | ✓      | ✓      |
+| Stability            | ✓     | ✓   |        |        |
+| Text centrism        | ✓     | ✓   | ✓      |        |
+| Velocity             |       |     | ✓      | ✓      |
+
+上面表格列举了不同编辑器的 [[https://www.murilopereira.com/the-values-of-emacs-the-neovim-revolution-and-the-vscode-gorilla/][core value]]，读者可根据自身需求，选择最适合自己的。
+
+#+begin_quote
+Values are defined as expressions of relative importance. Two things that we’re comparing could both be good attributes. The real question is, when you have to make a choice between two of them, what do you choose? That choice that you make, reflects your core values.
+#+end_quote
 * 入门教程
 对于中文用户来说，推荐的入门教程是下面两个：
 1. [[https://github.com/redguardtoo/mastering-emacs-in-one-year-guide/blob/master/guide-zh.org][一年成为Emacs高手]] by 陈斌
